@@ -1,0 +1,59 @@
+Syntax for Python Dictionary:
+
+  Dict = { ' Tim': 18,  xyz,.. }
+  
+Dictionary is listed in curly brackets, inside these curly brackets, keys and values are declared. 
+Each key is separated from its value by a colon (:) while each element is separated by commas.
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+print((Dict['Tiffany']))
+
+Python Dictionary Methods:
+
+1. Copying dictionary:
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+Boys = {'Tim': 18,'Charlie':12,'Robert':25}
+Girls = {'Tiffany':22}	
+studentX=Boys.copy()
+studentY=Girls.copy()
+print(studentX)
+print(studentY)
+
+2. Updating Dictionary:
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+Dict.update({"Sarah":9})
+print(Dict)
+
+3. Delete Keys from the dictionary:
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+del Dict ['Charlie']
+print(Dict)
+
+4. Dictionary items() Method:
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+print("Students Name: %s" % list(Dict.items()))
+
+5. Sorting the Dictionary
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}
+Boys = {'Tim': 18,'Charlie':12,'Robert':25}
+Girls = {'Tiffany':22}
+Students = list(Dict.keys())
+Students.sort()
+for S in Students:
+      print(":".join((S,str(Dict[S]))))
+	  
+6. Dictionary len() Method:
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+print("Length : %d" % len (Dict))
+
+7. Dictionary Str(dict):
+
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+print("printable string:%s" % str (Dict))
+
