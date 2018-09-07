@@ -5,3 +5,4 @@ So, I started from Python basics and stepping into data science.
 CONTENTS:
 1. Python
     * List
+    * Dictionary
