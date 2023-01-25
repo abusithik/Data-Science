@@ -1,1 +1,1 @@
-print("My first streamlit app")
+st.write("My first streamlit app")
